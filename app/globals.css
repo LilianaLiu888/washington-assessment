@@ -4,6 +4,14 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@layer utilities {
+  .shadow-menu {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  }
+}
+
+
+
 @theme inline {
   --color-bg-empty: var(--bg-empty);
   --color-bg-lighter: var(--bg-lighter);
